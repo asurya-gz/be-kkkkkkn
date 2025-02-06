@@ -5,10 +5,10 @@ const port = 4000;
 const userRoutes = require("./routes/Users/UsersRoutes");
 const pendudukRoutes = require("./routes/Penduduk/pendudukRoutes");
 
-// Opsi CORS untuk mengizinkan hanya localhost:3000
+// Opsi CORS untuk mengizinkan hanya 147.93.111.133:3000
 const corsOptions = {
   // origin: "https://perpus-undip.up.railway.app",
-  origin: "http://localhost:3000",
+  origin: "http://147.93.111.133:3000",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Metode yang diizinkan
   credentials: true, // Izinkan cookies
   optionsSuccessStatus: 200, // Untuk beberapa versi lama browsers
